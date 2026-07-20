@@ -1,0 +1,51 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform Plan Files
+*.tfplan
+*.plan
+
+# Ansible
+*.retry
+
+# Logs
+*.log
+
+# Environment Files
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Vim
+*.swp
+*.swo
+
+# Temporary Files
+tmp/
+temp/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Jenkins
+workspace/
